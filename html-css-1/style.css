@@ -1,0 +1,135 @@
+.topbar {
+  background-color: rgb(124, 124, 124);
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.company {
+  display: flex;
+}
+
+.company-text {
+  text-transform: uppercase;
+  color: white;
+  margin-left: 20px;
+  /* font-weight: bold; */
+  font-size: 25px;
+  font-family: Arimo;
+}
+
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20vw;
+  height: 5vh;
+  margin-right: 25px;
+}
+
+.link {
+  color: white;
+  text-transform: capitalize;
+  font-family: Arimo;
+  font-size: 13px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 27vh;
+  background-color: black;
+}
+
+.hero-text {
+  color: rgb(241, 231, 85);
+  font-family: Oswald;
+  text-transform: uppercase;
+  font-size: 50px;
+}
+
+.row-1 {
+  width: 100vw;
+  height: 22.5vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.square {
+  background-color: rgb(171, 247, 215);
+  height: 18vh;
+  width: 19.5vw;
+  border-radius: 7%;
+}
+
+.row-2 {
+  width: 100vw;
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.rectangle {
+  background-color: rgb(237, 190, 110);
+  width: 40vw;
+  height: 16vh;
+  border-radius: 1%;
+}
+
+.row-3 {
+  background-color: white;
+  width: 100vw;
+  height: 16vh;
+  display: flex;
+}
+
+.text-box {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+}
+
+.text-box p {
+  width: 35vw;
+  height: 8vh;
+}
+
+.picture-box {
+  width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lovely-picture {
+  width: 21vw;
+  height: 12vh;
+}
+
+.lovely-picture img {
+  width: auto;
+  max-height: 100%;
+}
+
+.black-bottom {
+  background-color: rgb(56, 59, 82);
+  width: 100vw;
+  height: 10vh;
+}
